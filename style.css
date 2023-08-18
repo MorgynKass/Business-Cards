@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+ background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/6DKEIYWKY5HQ3M2UXYTMO5MSQ4.jpeg) center no-repeat;
+ background-size: cover;
+}
+
+.heading {
+  width: 100%;
+  height: 10%;
+  color: #fff;
+  font-size: 4rem;
+  padding: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.cards-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  top: 7%;
+}
+
+.card {
+  width: 25rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(202, 202, 202, 0.9);
+  border-radius: 20px;
+}
+
+.img {
+  width: 15rem;
+  border-radius: 10px;
+  margin: 1rem;
+  object-fit: cover;
+}
+
+.name {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.address {
+  width: 80%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.description {
+  width: 80%;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Setting the color of the h2 h3 and p elements */
+.one {
+  color: rgb(239, 81, 136)
+}
+
+.two {
+  color: rgb(238, 0, 0)
+}
+
+.three {
+  color: rgb(255, 255, 255)
+}
+
+.four {
+  color: rgb(141, 51, 186)
+}
+
+.five {
+  color: rgb(234, 104, 49)
+}
+
+.six {
+  color: rgb(192, 33, 33)
+}
+
+.seven {
+  color: rgb(50, 41, 149)
+}
+
+.eight {
+  color: rgb(98, 57, 21)
+}
+
+.nine {
+  color: rgb(0, 0, 0)
+}
+
+/*Setting the opacity for the address elements */
+.address {
+    opacity: 0.7;
+}
