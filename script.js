@@ -21,6 +21,7 @@ fetch(URL)
             console.log(business[i].address);
             console.log(business[i].description);
 
+            //Created variables for each element I will need to append the information to. I then gave each element a class so I could edit them in CSS.
             let card = document.createElement("div");
             card.className = "card";
             let img = document.createElement("img");
@@ -32,16 +33,19 @@ fetch(URL)
             let descriptionH2 = document.createElement("h2");
             descriptionH2.className = "description";
 
+            //I then assigned the info to the elements.
             img.src = business[i].imageurl;
             nameH1.textContent = business[i].name;
             addressH2.textContent = business[i].address;
             descriptionH2.textContent = business[i].description;
 
+            //Finally I appended the elements to the card variable. 
             card.appendChild(img);
             card.appendChild(nameH1);
             card.appendChild(addressH2);
             card.appendChild(descriptionH2);
 
+            //Last step was to appends the card element to the card div I made in my HTML.
             document.querySelector(".cards").appendChild(card);
         };
     });
