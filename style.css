@@ -20,14 +20,15 @@ html {
   height: 10%;
   color: #fff;
   font-size: 4rem;
-  padding: 2rem;
+  padding-top: 4.3rem;
+  padding-bottom: 5rem;
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
 }
 
-.cards-wrapper {
+.cards {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -66,6 +67,7 @@ html {
   text-align: center;
   font-size: 1.2rem;
   font-family: "Josefin Sans", sans-serif;
+  opacity: 0.7;
 }
 
 .description {
@@ -76,44 +78,8 @@ html {
   font-family: "Josefin Sans", sans-serif;
 }
 
-/* Setting the color of the h2 h3 and p elements */
-.one {
-  color: rgb(239, 81, 136)
-}
-
-.two {
-  color: rgb(238, 0, 0)
-}
-
-.three {
-  color: rgb(255, 255, 255)
-}
-
-.four {
-  color: rgb(141, 51, 186)
-}
-
-.five {
-  color: rgb(234, 104, 49)
-}
-
-.six {
-  color: rgb(192, 33, 33)
-}
-
-.seven {
-  color: rgb(50, 41, 149)
-}
-
-.eight {
-  color: rgb(98, 57, 21)
-}
-
-.nine {
-  color: rgb(0, 0, 0)
-}
-
-/*Setting the opacity for the address elements */
-.address {
-    opacity: 0.7;
+@media (min-width: 900px) {
+  .container {
+    height: 125vh;
+  }
 }
